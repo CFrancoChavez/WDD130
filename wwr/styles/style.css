@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Bree+Serif&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: #4d17cc;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -23,14 +27,22 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
 #background {
-    height: 725px;
+    height: 600px;
+    background-color: #007FFF;
+    margin: 100px 0px;
 }
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #D4DCFF;
+    font-family: "Bree serif", "Averia serif";
 }
 nav a:hover {
     background-color: #D4DCFF;
@@ -38,19 +50,31 @@ nav a:hover {
 }
 .home-title  {
     color: #007FFF;
+    font-family: "Bree serif","Averia serif";
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #007FFF;
+    font-family: "Bree serif","Averia serif";
 }
 .book {
     background-color: #D4DCFF;
     color: #007FFF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color:#1AFFD5 ;
     color: #007FFF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color:#1AFFD5 ;
@@ -64,11 +88,20 @@ h4 {
 
 .msg {
     background-color:#1AFFD5 ;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 80px 0px;
 }
 footer {
     background-color:#1AFFD5 ;
     color: #007FFF;
     text-decoration: none;
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
+    margin-top: 100px;
 }
 footer a:hover {
     color: #007FFF;
@@ -76,16 +109,26 @@ footer a:hover {
 }
 footer a {
     color: #007FFF;
+    font-family: "Bree serif","Averia serif";
 }
 footer p {
     font-size: 1.2em;
+    font-family: "Bree serif","Averia serif";
 }
 .msg h2 {
     color: #007FFF;
+    font-family: "Bree serif","Averia serif";
 
+
+}
+h2 {
+    margin: 0;
 }
 .msg p {
     color: #007FFF;
+    font-family: "Bree serif","Averia serif";
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 #hero-img {
     width: 100%;
@@ -95,8 +138,26 @@ footer p {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p a:hover {
     text-decoration: underline;
-}    
-                    
+}  
+:local-link {
+    padding-top: 5px;
+}  
+
+.rivers-card {
+    margin: 200px;
+}
+
+.camping-card {
+    margin: 200px;
+}
+
+.rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid black;
+}
