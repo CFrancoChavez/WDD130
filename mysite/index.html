@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link  rel="stylesheet" href="styles/style.css">
     <title>Franco Chavez Portfolio</title>
 </head>
 <body>
@@ -14,9 +16,12 @@
                 </a>
                 <nav>
                     <a href="index.html">Home</a>
+                    <p>|</p>
                     <a href="about.html  ">About</a>
+                    <p>|</p>
                     <a href="projects.html">Projects</a>
-                    <a href="site-plan.html">Site-plan</a>
+                    <!-- <p>|</p>
+                    <a href="site-plan.html">Site-plan</a> -->
                 </nav>
         </header>
         <div id="hero">
@@ -26,29 +31,74 @@
             <section id="hero-msg">
                 <h1 class="home-title">Welcome to my Portfolio!</h1>
             </section>
-            <section>
-                <p>
-                    Hello there! My name is Franco Chávez and I am a Web Developer from Córdoba, Argentina, currently living in La Calera.
-                    My journey as a web developer began with a deep fascination for technology and a passion for solving problems and making
-                    things work. I have honed my skills in HTML, CSS, JavaScript, and backend with Node.JS and Express. I enjoy programming
-                    and creating websites for small businesses, in Projects you can find some samples of my work and some details about the
-                    technologies applied for its design and functionality You can contact me here if you are a business looking for a web
+            <section id="hero-text">
+                <p id="text-title">
+                    Hello there! My name is Franco Chávez and I am a Web Developer</p> 
+                <p id="paragraph">from Córdoba, Argentina, currently living in La Calera.
+                    My journey as a web developer began with a deep fascination for technology and a passion for solving problems and
+                    making
+                    things work. I have honed my skills in HTML, CSS, JavaScript, and backend with Node.JS and Express. I enjoy
+                    programming
+                    and creating websites for small businesses, in Projects you can find some samples of my work and some details about
+                    the
+                    technologies applied for its design and functionality You can contact me here if you are a business looking for a
+                    web
                     presence or an employer looking to hire.
                 </p>
             </section>
         </div>
-        <!-- Main Content -->
+        <main class="main-grid">
             <div>
-                <img src="images/fotohome2.jpg" alt="">
+                <h2 class="tech-text">Technologies</h2>
             </div>
-        <main>
+            <div>
+                <ul class="list-items-techs">
+                    <li><i class='javascript'></i>
+                        JavaScript
+                    </li>
+                    <li><i class='node'></i>
+                        Node.js
+                    </li>
+                    <li><i class='html' ></i>
+                        HTML
+                    </li>
+                    <li><i class='express'></i>
+                        Express
+                    </li>
+                    <li><i class='css3'></i>
+                        CSS
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <img id="main-img" src="images/fotohome2.jpg" alt="">
+            </div>
+        
 
         </main>
     <footer>
-        &copy; FrancoChavez - All rights reserved
-        <img src="images/linkedin.jpg" alt="linkedin-icon">
-        <img src="images/github.png" alt="github-icon">
-        <a href="site-plan.html">Site-plan</a>
+        <section class="footer-grid">
+            
+            <div>
+                <img class="log" src="images/think.png" alt="Portfolio-Logo">
+            </div>
+            <div class="text-1">
+                &copy; FrancoChavez - All rights reserved
+            </div>
+            <div class="button">
+                <a class="site-plan-button" href="site-plan.html">SITE PLAN</a>
+            </div>
+            <div class="linke-img">
+                <a href="https://www.linkedin.com/in/franco-chavez-548b0a56/" target="_blank">
+                <img src="images/linkedin.jpg" alt="linkedin-icon"></a>
+            </div>
+            <div class="git-img">
+                <a href="https://cfrancochavez.github.io/WDD130/" target="_blank">
+                <img src="images/github.png" alt="github-icon"></a>
+            </div>
+            
+        </section>
     </footer>
 </body>
 </html>
