@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,34 +18,98 @@
                     <a href="projects.html">Projects</a>
                     <a href="site-plan.html">Site-plan</a>
                 </nav>
-        </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/raftingsite.png" alt="">    
-            </div>
-            <section id="hero-msg">
-                <h1 class="home-title">Welcome to my Portfolio!</h1>
-            </section>
-            <section>
+        </header> -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link  rel="stylesheet" href="styles/style.css">
+            <title>Franco Chavez Portfolio</title>
+        </head>
+        <body>
+            <div id="content">
+                <header>
+                    
+                        <a href="index.html" id="logo_link">
+                            <img class="log" src="images/think.png" alt="Portfolio-Logo">
+                        </a>
+                        <nav>
+                            <a href="index.html">Home</a>
+                            <p>|</p>
+                            <a href="about.html  ">About</a>
+                            <p>|</p>
+                            <a href="projects.html">Projects</a>
+                            <!-- <p>|</p>
+                            <a href="site-plan.html">Site-plan</a> -->
+                        </nav>
+                </header>
+            
+        <main id="project-hero">
+            <section id="project-text">
                 <p>
                     Take a closer look at some of the projects I've had the privilege of working on. Each project represents a challenge and
                     an opportunity to increase my web development skills to create digital experiences. From the concept to the execution, I
                     have put my passion, effort, and knowledge to achieve the expected results and more!
                 </p>
             </section>
-        </div>
-        <!-- Main Content -->
-            <div>
-                <img src="images/mindfulness.png" alt="">
+            <!-- <div id="project-box">
+                 <img id="project-img1" src="images/raftingsite.png" alt="">    
             </div>
-        <main>
-
+            <section id="hero-msg">
+                <h1 class="home-title">Welcome to my Portfolio!</h1>
+            </section> -->
+            <!-- <div>
+                <img  idsrc="images/mindfulness.png" alt="">
+            </div> -->
+            <div style="text-align:center">
+                <h2>Projects</h2>
+                <p>Click on the images below:</p>
+              </div>
+              
+              <!-- The four columns -->
+              <div class="row">
+                <div class="column">
+                  <img src="images/raftingsite.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/mindfulness.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/videocomment.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+                </div>
+              </div>
+              
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+              </div>
+              <script src="script.js"></script>
         </main>
-    <footer>
-        &copy; FrancoChavez - All rights reserved
-        <img src="images/linkedin.jpg" alt="linkedin-icon">
-        <img src="images/github.png" alt="github-icon">
-        <a href="site-plan.html">Site-plan</a>
-    </footer>
+        <footer>
+            <section class="footer-grid">
+                
+                <div>
+                    <img class="log" src="images/think.png" alt="Portfolio-Logo">
+                </div>
+                <div class="text-1">
+                    &copy; FrancoChavez - All rights reserved
+                </div>
+                <div class="button">
+                    <a class="site-plan-button" href="site-plan.html">SITE PLAN</a>
+                </div>
+                <div class="linke-img">
+                    <a href="https://www.linkedin.com/in/franco-chavez-548b0a56/" target="_blank">
+                    <img src="images/linkedin.jpg" alt="linkedin-icon"></a>
+                </div>
+                <div class="git-img">
+                    <a href="https://cfrancochavez.github.io/WDD130/" target="_blank">
+                    <img src="images/github.png" alt="github-icon"></a>
+                </div>
+                
+            </section>
+        </footer>
 </body>
 </html>
