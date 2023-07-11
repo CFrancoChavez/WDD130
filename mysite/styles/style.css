@@ -70,6 +70,7 @@ nav a {
 #paragraph {
     font-size: 1.3em;
     margin-left: 8px;
+    font-family: "Ubuntu";
     
 }
 header {
@@ -172,16 +173,48 @@ h2.tech-text {
 
 /* projects styles */
 /* The grid: Four equal columns that floats next to each other */
+.projects-title {
+    text-align:center;
+    font-family: "Averia serif libre";
+    color:#AB2346;
+    font-size: 35px;
+}
+.projects-p {
+    text-align:center;
+    font-family: "Averia serif libre";
+    color:#AB2346;
+    font-size: 20px;
+    font-weight: 500;
+}
+#project-text {
+    box-sizing: border-box;
+    background-color:#03F7EB ;
+    padding: 20px;
+    word-spacing: 1.5px;
+    font-stretch: expanded;
+}
+.project-description {
+    font-family: "Ubuntu";
+    margin: 8px;
+    
+}
+.row {
+    background-color: #D4DCFF;
+}
 .column {
     float: left;
-    width: 25%;
-    padding: 10px;
+    width: 23.5%;
+    padding: 12px;
+   
+    
   }
   
   /* Style the images inside the grid */
   .column img {
     opacity: 0.8; 
     cursor: pointer; 
+    border: black 1px solid;
+    height: 290px;
   }
   
   .column img:hover {
@@ -194,11 +227,14 @@ h2.tech-text {
     display: table;
     clear: both;
   }
-  
+  #expandedImg {
+    height: 906.28px;
+  }
   /* The expanding image container */
   .container {
     position: relative;
     display: none;
+    border: black 1px solid;
   }
   
   /* Expanding image text */
@@ -206,8 +242,8 @@ h2.tech-text {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: white;
-    font-size: 20px;
+    color:#00B295;
+    font-size: 25px;
   }
   
   /* Closable button inside the expanded image */
